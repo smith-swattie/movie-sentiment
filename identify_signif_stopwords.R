@@ -11,7 +11,7 @@ stopwords <- read.table(file="../stopwords.txt",quote="",stringsAsFactors=FALSE)
 ## read in first 300 positive and first 300 negative reviews
 ###################
 
-# store directory that positive and negative review folders
+# store directory that holds unzipped positive and negative review folders
 # download reviews from http://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz
 overallDirectory <- "../review_polarity/txt_sentoken/"
 
